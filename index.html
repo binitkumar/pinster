@@ -1,0 +1,94 @@
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+
+<title>pinsterapp.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="style.css">
+
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".hand").animate({bottom:'0px'},1500);
+
+});
+</script> 
+<style>
+body{
+        overflow-y:hidden;
+    }
+.hand{
+	position:absolute;
+	bottom:-400px;
+	padding-right:10px;
+	right:10px;
+	
+	}
+#navcontainer{
+	position:absolute;
+	bottom:0;
+	width: 100%;		
+}
+</style>
+
+</head>
+<body>
+
+
+
+
+<header class="hero">
+	<div class="row">
+		<div class="intro">
+			<h1>
+				<!--img src="./images/icon.png" class="header_logo"/-->
+				Pinster
+			</h1>
+			<h2>Because 'check-ins' are overrated !</h2>
+			<p style="margin-top: 18%;">Start pinning your locations with a tap of a button.. </p>
+		<a class="downloadButton" href="#">
+		  <img src="./images/btn_download.png" width="180" height="53">
+		</a>
+		
+		<a class="downloadButton" href="#">
+		  <img src="./images/google_play.png" width="180" height="53" style="margin-left:20px;">
+		</a>
+		</div>
+	</div>
+</header>
+<img class="hand" src="./images/header_iphone.png" />
+
+
+<div class="ti-footer ng-scope">
+
+    <div class="container">
+
+        <div id="navcontainer">
+
+            <ul>
+
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./term.html"> Terms</a></li>
+                <li><a href="./privacy.html"> Privacy</a></li>
+                               
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
